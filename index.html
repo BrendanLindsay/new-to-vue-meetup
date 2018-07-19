@@ -7,9 +7,13 @@
 
     <body>
         <h1>New to Vue? This one's for you.</h1>
-        <h2>5 Fundamentals will give you 5 'A-ha!' moments</h2>
+        <h2></h2>
     </body>
     <script src="script.js">
-
+    <script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+    <div id="app">
+        <input type="text" v-model="name">
+        <p>Hello, {{name}}</p>
+    </div>
     </script>
 </html>
